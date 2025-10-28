@@ -386,11 +386,11 @@ function add_slashes($string){
 /**
  * hex to binary
  */
-if (!function_exists('hex2bin')) {
-	function hex2bin($hexdata)	{
-		return pack('H*', $hexdata);
-	}
-}
+// if (!function_exists('hex2bin')) {
+//	function hex2bin($hexdata)	{
+	//	return pack('H*', $hexdata);
+//	}
+//}
 
 if (!function_exists('gzdecode')) {
 	function gzdecode($data){
@@ -1662,4 +1662,5 @@ function check_lang($word){
 		$language = 'en';
 	}
 	return $language;
+
 }
